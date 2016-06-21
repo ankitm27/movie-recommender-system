@@ -103,7 +103,7 @@ if __name__ ==  "__main__":
     link = 1
     check = 1
     total_element = 0
-    years = [2013,2014,2015]
+    years = [2011,2012,2013,2014,2015]
     client = MongoClient('localhost',27017)
     db = client.imdb_database
     for year in years:
